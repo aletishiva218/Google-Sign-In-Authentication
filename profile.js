@@ -37,7 +37,7 @@ let logout= ()=> {
             'Content-Type':"application/x-www-form-urlencoded"
         }
     }).then((data)=>{
-        location.href="http://127.0.0.1:5500"
+        location.href="https://stately-nougat-6f944d.netlify.app"
     })
 
 }
