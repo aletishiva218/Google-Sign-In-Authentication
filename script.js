@@ -6,7 +6,7 @@ let signIn = () => {
 
     let params = {
         "client_id":"519622512207-ld3j3fe2ap0jgsotf4itii94cvdjllp2.apps.googleusercontent.com",
-        "redirect_uri":"http://127.0.0.1:5500/profile.html",
+        "redirect_uri":"https://google-authentication-oauth2.netlify.app/profile.html",
         "response_type":"token",
         "scope":"https://www.googleapis.com/auth/userinfo.profile",
         "include_granted_scopes": 'true',

@@ -37,7 +37,7 @@ let logout= ()=> {
             'Content-Type':"application/x-www-form-urlencoded"
         }
     }).then((data)=>{
-        location.href="http://localhost:5500/index.html"
+        location.href="https://google-authentication-oauth2.netlify.app"
     })
 
 }
